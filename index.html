@@ -9,7 +9,7 @@
     <title>Casa Fina Arquitetura</title>
 </head>
 <body> 
-    <div class="container">
+    <section class="container">
         <h2>Sobre Nós</h2>
         <img class="img-responsive" src="./img/empresa.jpg" alt="team" />
 
@@ -45,9 +45,17 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Mais de 300 prêmios em design e em conforto.</h2>
+            <p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
+        </div>
     </div>
 
-    <div class="container">
+
+    <section class="container">
         <h2>Nossos Projetos</h2>
     
         <figure class="thumbnail">
@@ -85,8 +93,118 @@
                 <p>A TopCasaFina Arquitetura está no mercado desde 1935 trazendo casas, mansões e tudo mais bonito do mercado de arquitetura.</p>
             </figcaption>
         </figure>
+    </section>
 
-    </div>
+    <section>
+        <div class="container section__depoimentos">
+            <h2>Depoimentos de Clientes</h2>
+        </div>
+    
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <figure class="item active">
+                <img src="./img/depoimentos/depoimento1.png" alt="depoimentos">
+                <figcaption class="carousel-caption">
+                    <h3>Yuri Padrilha</h3>
+                    <p>Gostei muito.</p>
+                </figcaption>
+              </figure>
+              <figure class="item">
+                <img src="./img/depoimentos/depoimento2.png" alt="depoimentos">
+                <figcaption class="carousel-caption">
+                    <h3>Yuri Padrilha</h3>
+                    <p>Gostei muito.</p>
+                </figcaption>
+              </figure>
+              <figure class="item">
+                <img src="./img/depoimentos/depoimento3.png" alt="depoimentos">
+                <figcaption class="carousel-caption">
+                    <h3>Yuri Padrilha</h3>
+                    <p>Gostei muito.</p>
+                </figcaption>
+              </figure>
+            </div>
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+    </section>
+
+    <section class="container">
+        <h2>Vídeo Institucional</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/pzG7hp3vPuI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Contato</h2>
+        <h3>Entre em contato conosco</p>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input class="form-control" type="text" id="nome" name="nome" placeholder="Seu nome" />
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <div class="input-group">
+                    <div class="input-group-addon">@</div>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="seuemail@empresa.com" />
+                </div>
+            </div>
+            <div class="grupo-radio">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="conta" value="pf" />
+                        Pessoa Física
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="conta" value="pj" />
+                        Pessoa Jurídica
+                    </label>
+                </div>
+            </div><!--
+        --><select class="contato-select form-control">
+                <option selected disabled>Tipo de Situação</option>
+                <option>Casa</option>
+                <option>Apartamento</option>
+                <option>Mansão</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <address>
+            <string>TopCasaFina Arquitetura</string> </br>
+            Rua Vergueiro, SP, 3185 </br>
+            São Paulo, SP </br>
+            Tel: (11) 5571-2751 ou 5083-3884
+        </address>
+    
+        <address>
+            E-mail: contato@topcasafina.com.br
+        </address>
+    </footer>
+    
     
 
     <script src="./jquery.js"></script>

@@ -5,3 +5,37 @@
 .painel-heading {
     cursor: pointer;
 }
+
+.section__depoimentos {
+    background-color: #0275D8;
+    color: #FFF;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-select, .grupo-radio {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 1.5rem;
+}
+
+footer address:last-child {
+    margin: 0;
+}
+
+label {
+    font-size: 1.8rem;
+}
