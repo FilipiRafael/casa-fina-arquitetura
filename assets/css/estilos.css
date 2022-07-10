@@ -20,6 +20,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
 }
 
 #paineis-sobre {
@@ -62,4 +63,23 @@ footer address:last-child {
 
 label {
     font-size: 1.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    #paineis-sobre {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .article-main {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 40%;
+    }
+
+    .topCasaBanner-wrapper {
+        position: relative;
+        height: 100%;
+    }
 }
