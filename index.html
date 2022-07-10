@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/estilos.css" />
     <title>Casa Fina Arquitetura</title>
 </head>
 <body> 
@@ -12,15 +13,81 @@
         <h2>Sobre Nós</h2>
         <img class="img-responsive" src="./img/empresa.jpg" alt="team" />
 
-        <h2 data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h2>
-        <p id="primeiro-paragrafo" class="collapse">A TopCasaFina Arquitetura está no mercado desde...</p>
-
-        <h2 data-toggle="collapse" data-target="#segundo-paragrafo">Desde 1935</h2>
-        <p id="segundo-paragrafo" class="collapse">A TopCasaFina Arquitetura está no mercado desde...</p>
-
-        <h2 data-toggle="collapse" data-target="#terceiro-paragrafo">Desde 1935</h2>
-        <p id="terceiro-paragrafo" class="collapse">A TopCasaFina Arquitetura está no mercado desde...</p>
+        <div class="panel-group" id="paineis-sobre">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+                </div>
+                <div id="primeiro-paragrafo" class="collapse">
+                    <div class="panel-body">
+                        <p>A TopCasaFina Arquitetura está no mercado desde 1935 trazendo casas, mansões e tudo mais bonito do mercado de arquitetura.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+                </div>
+                <div id="segundo-paragrafo" class="collapse">
+                    <div class="panel-body">
+                        <p>A TopCasaFina Arquitetura está no mercado desde...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+                </div>
+                <div id="terceiro-paragrafo" class="collapse">
+                    <div class="panel-body">
+                        <p>A TopCasaFina Arquitetura está no mercado desde...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="container">
+        <h2>Nossos Projetos</h2>
+    
+        <figure class="thumbnail">
+            <img src="./img/castelo.jpg" alt="castelo">
+            <figcaption class="caption">
+                <h3>Casa Castelo</h3>
+                <p>A TopCasaFina Arquitetura está no mercado desde 1935 trazendo casas, mansões e tudo mais bonito do mercado de arquitetura.</p>
+            </figcaption>
+        </figure>
+        <figure class="thumbnail">
+            <img src="./img/projetos/casa-lago.png" alt="casa lago">
+            <figcaption class="caption">
+                <h3>Casa Labo</h3>
+                <p>A TopCasaFina Arquitetura está no mercado desde 1935 trazendo casas, mansões e tudo mais bonito do mercado de arquitetura.</p>
+            </figcaption>
+        </figure>
+        <figure class="thumbnail">
+            <img src="./img/projetos/mercado-marapira.png" alt="Mercado marapira">
+            <figcaption class="caption">
+                <h3>Mercado Marapira</h3>
+                <p>A TopCasaFina Arquitetura está no mercado desde 1935 trazendo casas, mansões e tudo mais bonito do mercado de arquitetura.</p>
+            </figcaption>
+        </figure>
+        <figure class="thumbnail">
+            <img src="./img/projetos/palacio-dionisio.png" alt="Palácio Dionisio">
+            <figcaption class="caption">
+                <h3>Palácio Dionisio</h3>
+                <p>A TopCasaFina Arquitetura está no mercado desde 1935 trazendo casas, mansões e tudo mais bonito do mercado de arquitetura.</p>
+            </figcaption>
+        </figure>
+        <figure class="thumbnail">
+            <img src="./img/projetos/residencia-ludi.png" alt="Residencia Iudi">
+            <figcaption class="caption">
+                <h3>Residencia Iudi</h3>
+                <p>A TopCasaFina Arquitetura está no mercado desde 1935 trazendo casas, mansões e tudo mais bonito do mercado de arquitetura.</p>
+            </figcaption>
+        </figure>
+
+    </div>
+    
 
     <script src="./jquery.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
